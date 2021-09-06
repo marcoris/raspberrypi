@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "s this a new installation (y/n)?"
+echo "Is this a new installation (y/n)?"
 read ANSWER
 
 if [[ "$ANSWER" != "${ANSWER#[Yy]}" ]]; then
